@@ -16,6 +16,9 @@ body {
 video {
     margin: 40px 0 0 0;
     width: 60%;
+    -webkit-box-shadow: 10px 10px 34px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 34px -5px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 34px -5px rgba(0,0,0,0.75);
 }
 
 .controls {
@@ -32,10 +35,8 @@ video {
     color: #CBCBCB;
     cursor: pointer;
     outline: none;
-}
-
-.controls button i {
-    width: 50px;
+    width: 30px;
+    margin: 0 15px 0 0;
 }
 
 .timestamp {
@@ -48,9 +49,7 @@ video {
 .progress {
     -webkit-appearance: none;
   -moz-appearance: none;
-  width: 60%;
-  
-  
+  width: 60%;  
 }
 input[type=range]::-webkit-slider-runnable-track {
     -webkit-appearance: none;
@@ -62,7 +61,7 @@ input[type=range]::-webkit-slider-runnable-track {
     background: -ms-linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
     background: linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bade3 ', endColorstr='#ff357f ', GradientType=1 );
-    height: 2px;
+    height: 4px;
   }
   
   input[type=range]:focus {
