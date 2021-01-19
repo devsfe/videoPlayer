@@ -5,6 +5,7 @@
 }
 
 body {
+   font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,6 +28,14 @@ video {
     height: 50px;
     padding: 15px;
     display: flex;
+    align-items: center;
+}
+
+.controls-end {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   width: 100%;
 }
 
 .controls button {
@@ -40,9 +49,8 @@ video {
 }
 
 .timestamp {
-    justify-self: flex-end;
-    align-self: flex-end;
     color: #CBCBCB;
+    margin: 0 15px 0 0;
 }
 
 /*** Progress bar styles ***/
