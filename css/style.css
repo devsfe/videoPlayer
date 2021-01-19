@@ -159,3 +159,10 @@ input[type=range]::-webkit-slider-runnable-track {
   input[type=range]::-moz-range-thumb:active {
     cursor: -moz-grabbing;
   }
+
+  @media(max-width: 800px) {
+      video,
+      .controls {
+         width: 80%;
+      }
+  }
