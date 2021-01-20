@@ -80,6 +80,3 @@ progress.addEventListener('change', setProgress);
 
 fullscreen.addEventListener('click', openFullScreen);
 
-
-
-
