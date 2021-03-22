@@ -5,7 +5,7 @@
 <br>
 <h2>Sobre</h2>
 <hr>
-<p>Video Player Desenvolvido com HTML5 CSS3 & Javascript.</p>
+<p>Video Player Desenvolvido com HTML5 CSS3 & Javascript</p>
 <h2>Links</h2>
 <hr>
 <p>Demonstração: <a href="https://videoplayerapp.netlify.app/">https://videoplayerapp.netlify.app/ </a></p>
